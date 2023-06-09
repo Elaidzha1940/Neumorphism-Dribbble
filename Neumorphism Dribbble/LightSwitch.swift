@@ -16,6 +16,17 @@ struct LightSwitch: View {
         
         HStack {
             LightToggle()
+            
+            ZStack {
+                RoundedRectangle(cornerRadius: 20)
+                    .strokeBorder(
+                        style: StrokeStyle(
+                            lineWidth: 2,
+                            dash: [5]
+                        )
+                    )
+                    .frame(width: 50, height: 50)
+            }
         }
     }
 }
@@ -26,6 +37,7 @@ struct LightSwitch_Previews: PreviewProvider {
     }
 }
 
+//MARK: LightToggle
 struct LightToggle: View {
     var body: some View {
         HStack {
