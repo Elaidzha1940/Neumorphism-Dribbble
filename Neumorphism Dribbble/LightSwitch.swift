@@ -15,6 +15,20 @@ struct LightSwitch: View {
     var body: some View {
         
         HStack {
+            LightToggle()
+        }
+    }
+}
+
+struct LightSwitch_Previews: PreviewProvider {
+    static var previews: some View {
+        LightSwitch()
+    }
+}
+
+struct LightToggle: View {
+    var body: some View {
+        HStack {
             VStack(alignment: .leading) {
                 
                 Text("Light")
@@ -59,11 +73,5 @@ struct LightSwitch: View {
         .frame(width: 240, height: 135)
         .background(Color(.blue).opacity(0.6))
         .cornerRadius(20)
-    }
-}
-
-struct LightSwitch_Previews: PreviewProvider {
-    static var previews: some View {
-        LightSwitch()
     }
 }
