@@ -17,18 +17,10 @@ struct LightSwitch: View {
         HStack {
             LightToggle()
             
-            ZStack {
-                RoundedRectangle(cornerRadius: 20)
-                    .strokeBorder(
-                        style: StrokeStyle(
-                            lineWidth: 2,
-                            dash: [5]
-                        )
-                    )
-                    .frame(width: 140, height: 140)
-                    .foregroundColor(.gray)
-            }
+            Spacer()
+            PlusButton()
         }
+        .padding(.horizontal, 20)
     }
 }
 
@@ -83,8 +75,29 @@ struct LightToggle: View {
             .cornerRadius(20)
             .padding(.trailing, 10)
         }
-        .frame(width: 240, height: 135)
+        .frame(width: 230, height: 135)
         .background(Color(.blue).opacity(0.6))
         .cornerRadius(20)
+    }
+}
+
+//MARK: PlusButton
+struct PlusButton: View {
+    var body: some View {
+        ZStack {
+            RoundedRectangle(cornerRadius: 20)
+                .strokeBorder(
+                    style: StrokeStyle(
+                        lineWidth: 2,
+                        dash: [7]
+                    )
+                )
+                .frame(width: 135, height: 135)
+                .foregroundColor(.gray)
+            
+            Image(systemName: "plus")
+                .font(.system(size: 30))
+                .foregroundColor(.gray)
+        }
     }
 }
