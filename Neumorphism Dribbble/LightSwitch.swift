@@ -18,9 +18,15 @@ struct LightSwitch: View {
             VStack(alignment: .leading) {
                 
                 Text("Light")
-                    .font(.system(size: 17, weight: .medium, design: .default))
+                    .font(.system(size: 22, weight: .medium, design: .default))
+                    .foregroundColor(.white)
                 Text("Connected")
+                    .font(.system(size: 18, weight: .medium, design: .default))
+                    .foregroundColor(.white).opacity(0.5)
+                    .padding(.top, 5)
             }
+            .padding(.leading, 20)
+            Spacer()
             
             VStack {
                 VStack {
@@ -40,11 +46,15 @@ struct LightSwitch: View {
                 Spacer()
                 
                 Text("ON")
+                    .font(.system(size: 18, weight: .medium, design: .default))
+                    .foregroundColor(.white).opacity(0.5)
+                    .padding(.top, 5)
                     .padding(.bottom, 20)
             }
             .frame(height: 120)
             .background(Color(.blue).opacity(0.4))
             .cornerRadius(20)
+            .padding(.trailing, 10)
         }
         .frame(width: 240, height: 135)
         .background(Color(.blue).opacity(0.6))
