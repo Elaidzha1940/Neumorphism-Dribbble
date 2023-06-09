@@ -26,6 +26,10 @@ struct LightSwitch: View {
                 VStack {
                     RoundedRectangle(cornerRadius: 15, style: .continuous)
                         .frame(width: 60, height: 38)
+                        .foregroundColor(.white)
+                        .shadow(color: Color(.black).opacity(0.15),
+                                radius: 10 , x: 10, y: 10)
+                        .shadow(color: Color(.white), radius: 3, x: -5, y: -5)
                 }
             }
         }
