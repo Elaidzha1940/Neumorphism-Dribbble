@@ -17,17 +17,20 @@ struct Scenario: View {
         HStack {
             
             Text("Turn on on the scenario of presence")
-            
+                .font(.system(size: 19, weight: .bold, design: .default))
+                .padding(.leading, 20)
+            Spacer()
             ZStack {
                 RoundedRectangle(cornerRadius: 30)
-                    .frame(width: 110, height: 100)
+                    .frame(width: 100, height: 95)
                     .foregroundColor(.orange)
                     .shadow(color: .orange.opacity(0.3), radius: 10, x: 0, y: 10)
                 Image(systemName: "arrow.right")
-                    .font(.system(size: 30))
+                    .font(.system(size: 25 ))
                     .foregroundColor(.white)
                 
             }
+            .padding(.trailing, 20)
         }
         .frame(maxWidth: .infinity)
         .frame(height: 120)

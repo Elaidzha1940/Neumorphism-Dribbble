@@ -14,13 +14,18 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         
-        VStack {
+        VStack(alignment: .leading) {
             
             MainView()
             Title()
             LightSwitch()
+                .padding(.top, 50)
             AirButton()
+                .padding(.leading, 20)
             AddMore()
+                .padding(.leading, 20)
+                .padding(.bottom, 70)
+            Scenario()
         
         }
     }
