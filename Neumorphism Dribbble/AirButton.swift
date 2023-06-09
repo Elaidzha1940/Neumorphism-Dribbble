@@ -17,10 +17,15 @@ struct AirButton: View {
         HStack {
             VStack(alignment: .leading) {
                 
-                Text("AirConditioning")
+                Text("AirCondition")
+                    .font(.system(size: 22, weight: .medium, design: .default))
                 Text("Connected")
+                    .font(.system(size: 16, weight: .medium, design: .default))
+                    .foregroundColor(.gray)
+                    .padding(.top, 1)
             }
-            
+            .padding(.leading, 20)
+            Spacer()
             ZStack {
                 
                 Circle()
@@ -46,9 +51,11 @@ struct AirButton: View {
                     .foregroundColor(.white.opacity(0.6))
             }
             .frame(width: 90, height: 90)
+            .padding(.trailing, 20)
         }
-        .frame(width: 300, height: 160)
-        .background(Color.white.opacity(0.5))
+        .frame(width: 300, height: 135)
+        .background(Color.gray.opacity(0.1))
+        .cornerRadius(20)
 
     }
 }
