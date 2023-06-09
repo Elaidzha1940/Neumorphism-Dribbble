@@ -25,7 +25,8 @@ struct LightSwitch: View {
                             dash: [5]
                         )
                     )
-                    .frame(width: 50, height: 50)
+                    .frame(width: 140, height: 140)
+                    .foregroundColor(.gray)
             }
         }
     }
