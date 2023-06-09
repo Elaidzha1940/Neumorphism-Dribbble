@@ -5,7 +5,7 @@
 //  Created by: Elaidzha Shchukin
 //  Date: 07.06.2023
 //
-//  Status: in progress |
+//  Status:
 //
 //  */
 
@@ -93,7 +93,7 @@ struct PlusButton: View {
                     )
                 )
                 .frame(width: 135, height: 135)
-                .foregroundColor(.gray)
+                .foregroundColor(.gray.opacity(0.3))
             
             Image(systemName: "plus")
                 .font(.system(size: 30))
