@@ -20,8 +20,12 @@ struct Scenario: View {
             
             ZStack {
                 RoundedRectangle(cornerRadius: 30)
-                    .frame(height: 100)
+                    .frame(width: 110, height: 100)
+                    .foregroundColor(.orange)
+                    .shadow(color: .orange.opacity(0.3), radius: 10, x: 0, y: 10)
                 Image(systemName: "arrow.right")
+                    .font(.system(size: 30))
+                    .foregroundColor(.white)
                 
             }
         }
