@@ -1,9 +1,13 @@
+//  /*
 //
-//  Neumorphism_DribbbleApp.swift
-//  Neumorphism Dribbble
+//  Project: Neumorphism Dribbble
+//  File: Neumorphism_DribbbleApp.swift
+//  Created by: Elaidzha Shchukin
+//  Date: 07.06.2023
 //
-//  Created by Elaidzha Shchukin on 07.06.2023.
+//  Status:
 //
+//  */
 
 import SwiftUI
 
