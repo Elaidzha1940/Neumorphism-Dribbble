@@ -13,7 +13,22 @@ import SwiftUI
 
 struct LightSwitch: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        HStack {
+            VStack(alignment: .leading) {
+                
+                Text("Light")
+                    .font(.system(size: 17, weight: .medium, design: .default))
+                Text("Connected")
+            }
+            
+            VStack {
+                VStack {
+                    RoundedRectangle(cornerRadius: 15, style: .continuous)
+                        .frame(width: 60, height: 38)
+                }
+            }
+        }
     }
 }
 
