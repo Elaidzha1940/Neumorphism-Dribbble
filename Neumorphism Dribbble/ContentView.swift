@@ -17,10 +17,9 @@ struct ContentView: View {
         VStack {
             
             MainView()
-            
             Title()
-            
-            
+            LightSwitch()
+        
         }
     }
 }
