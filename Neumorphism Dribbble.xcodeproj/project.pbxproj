@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E4B665452A335D3900CA49E7 /* AirButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B665442A335D3900CA49E7 /* AirButton.swift */; };
+		E4B665472A33663200CA49E7 /* AddMore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B665462A33663200CA49E7 /* AddMore.swift */; };
 		E4DA49012A2FCFC70015C524 /* Neumorphism_DribbbleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DA49002A2FCFC70015C524 /* Neumorphism_DribbbleApp.swift */; };
 		E4DA49032A2FCFC70015C524 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DA49022A2FCFC70015C524 /* ContentView.swift */; };
 		E4DA49052A2FCFC80015C524 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4DA49042A2FCFC80015C524 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		E4B665442A335D3900CA49E7 /* AirButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirButton.swift; sourceTree = "<group>"; };
+		E4B665462A33663200CA49E7 /* AddMore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMore.swift; sourceTree = "<group>"; };
 		E4DA48FD2A2FCFC70015C524 /* Neumorphism Dribbble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Neumorphism Dribbble.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4DA49002A2FCFC70015C524 /* Neumorphism_DribbbleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Neumorphism_DribbbleApp.swift; sourceTree = "<group>"; };
 		E4DA49022A2FCFC70015C524 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				E4DA49072A2FCFC80015C524 /* Preview Content */,
 				E4DA490F2A2FD9210015C524 /* LightSwitch.swift */,
 				E4B665442A335D3900CA49E7 /* AirButton.swift */,
+				E4B665462A33663200CA49E7 /* AddMore.swift */,
 			);
 			path = "Neumorphism Dribbble";
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4DA49032A2FCFC70015C524 /* ContentView.swift in Sources */,
+				E4B665472A33663200CA49E7 /* AddMore.swift in Sources */,
 				E4DA49102A2FD9210015C524 /* LightSwitch.swift in Sources */,
 				E4B665452A335D3900CA49E7 /* AirButton.swift in Sources */,
 				E4DA49012A2FCFC70015C524 /* Neumorphism_DribbbleApp.swift in Sources */,
