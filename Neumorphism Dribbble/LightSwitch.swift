@@ -31,8 +31,24 @@ struct LightSwitch: View {
                                 radius: 10 , x: 10, y: 10)
                         .shadow(color: Color(.white), radius: 3, x: -5, y: -5)
                 }
+                .frame(width: 76, height: 50)
+                .background(Color(.white))
+                .cornerRadius(18)
+                .padding(.horizontal, 4)
+                .padding(.top, 10)
+                
+                Spacer()
+                
+                Text("ON")
+                    .padding(.bottom, 20)
             }
+            .frame(height: 120)
+            .background(Color(.blue).opacity(0.4))
+            .cornerRadius(20)
         }
+        .frame(width: 240, height: 135)
+        .background(Color(.blue).opacity(0.6))
+        .cornerRadius(20)
     }
 }
 
