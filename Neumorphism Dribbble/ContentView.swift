@@ -22,9 +22,11 @@ struct ContentView: View {
                 .padding(.top, 50)
             AirButton()
                 .padding(.leading, 20)
+                .padding(.top, 10)
             AddMore()
                 .padding(.leading, 20)
-                .padding(.bottom, 70)
+                .padding(.bottom, 50)
+                .padding(.top, 10)
             Scenario()
         
         }
